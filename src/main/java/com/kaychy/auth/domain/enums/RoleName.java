@@ -1,4 +1,4 @@
-package com.kaychy.auth.domain;
+package com.kaychy.auth.domain.enums;
 
 /**
  * The fixed set of roles seeded by V1__initial_schema.sql.

@@ -1,5 +1,7 @@
-package com.kaychy.auth.domain;
+package com.kaychy.auth.domain.entity;
 
+import com.kaychy.auth.domain.enums.RoleName;
+import com.kaychy.auth.domain.repository.RoleRepository;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

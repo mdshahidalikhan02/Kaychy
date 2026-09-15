@@ -10,11 +10,12 @@ import static org.mockito.Mockito.when;
 
 import com.kaychy.auth.application.dto.RegisterUserRequest;
 import com.kaychy.auth.application.dto.UserResponse;
-import com.kaychy.auth.domain.Role;
-import com.kaychy.auth.domain.RoleName;
-import com.kaychy.auth.domain.RoleRepository;
-import com.kaychy.auth.domain.User;
-import com.kaychy.auth.domain.UserRepository;
+import com.kaychy.auth.application.service.UserRegistrationService;
+import com.kaychy.auth.domain.entity.Role;
+import com.kaychy.auth.domain.enums.RoleName;
+import com.kaychy.auth.domain.repository.RoleRepository;
+import com.kaychy.auth.domain.entity.User;
+import com.kaychy.auth.domain.repository.UserRepository;
 import com.kaychy.common.exception.ResourceConflictException;
 import java.util.Optional;
 import org.junit.jupiter.api.Test;

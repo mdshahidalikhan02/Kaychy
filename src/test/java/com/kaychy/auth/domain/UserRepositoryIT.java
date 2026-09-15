@@ -2,6 +2,11 @@ package com.kaychy.auth.domain;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.kaychy.auth.domain.entity.Role;
+import com.kaychy.auth.domain.entity.User;
+import com.kaychy.auth.domain.enums.RoleName;
+import com.kaychy.auth.domain.repository.RoleRepository;
+import com.kaychy.auth.domain.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
